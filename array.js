@@ -13,3 +13,14 @@ const arr =  [12,40,2,4,6,7,60,30];
 
  // callling fun function
  func(12,40,34,67,100);
+ console.log("This is string starting!");
+
+ const _arr_fruit = ["apple","mango","orange", "goava", "hyderaba"];
+   
+   _arr_fruit.forEach((el,index, arr) => {
+    console.log(`element: ${el} index: ${index} array: ${arr}`);
+
+   })
+
+
+   console.log("String array is ending");
